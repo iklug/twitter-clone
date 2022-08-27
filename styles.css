@@ -1,1 +1,13 @@
-
+h1 {
+  text-align: center;
+  color: white;
+  background-color: lightblue;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 10px;
+}
+.profilepic {
+  height: 100px;
+  width: 100px;
+  float: left;
+  border-radius: 50px;
+}
