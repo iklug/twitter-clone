@@ -4,14 +4,69 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Twitter Clone</title>
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" type="image/png" href="images/twitter-favicon.png" />
   </head>
   <body>
-    <h1>Twitter Clone</h1>
-    <img
-      src="images/profilepicture.png"
-      alt="your profile picture"
-      class="profilepic"
-    />
+    <!-- sidebar starts -->
+    <div class="sidebar">
+      <div class="sidebarOption active">
+        <span class="material-icons"> home </span>
+        <h2>Home</h2>
+      </div>
+      <div class="sidebarOption">
+        <span class="material-icons"> search </span>
+        <h2>Search</h2>
+      </div>
+      <div class="sidebarOption">
+        <span class="material-icons"> notifications_none </span>
+        <h2>Notifications</h2>
+      </div>
+      <div class="sidebarOption">
+        <span class="material-icons"> mail_outline </span>
+        <h2>Messages</h2>
+      </div>
+      <div class="sidebarOption">
+        <span class="material-icons"> bookmark_border </span>
+        <h2>Bookmarks</h2>
+      </div>
+      <div class="sidebarOption">
+        <span class="material-icons"> list_alt </span>
+        <h2>Lists</h2>
+      </div>
+      <div class="sidebarOption">
+        <span class="material-icons"> perm_identity </span>
+        <h2>Profile</h2>
+      </div>
+      <div class="sidebarOption">
+        <span class="material-icons"> more_horiz </span>
+        <h2>More</h2>
+      </div>
+      <button class="sidebar_tweet">Tweet</button>
+    </div>
+    <!-- sidebar ends -->
+
+    <!-- feed starts -->
+    <div class="feed">
+      <div class="feed_header">
+        <h2>Home</h2>
+      </div>
+      <!-- tweetbox starts -->
+      <div class="tweetBox">
+        <form>
+          <div class="tweetBox_input">
+            <img src="images/profilepicture.png" alt="face" />
+            <input type="text" placeholder="What's on your mind?" />
+          </div>
+          <button class="tweetBox_tweetButton">Tweet</button>
+        </form>
+      </div>
+      <!-- tweetbox ends -->
+    </div>
+    <!-- feed ends -->
   </body>
 </html>
